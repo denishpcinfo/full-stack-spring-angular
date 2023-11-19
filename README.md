@@ -1,6 +1,6 @@
-# Full Stack Sspring Angular && Docker.
+# Full Stack Spring Angular && Docker.
 
-Software como Serviço - SaaS (Software as a service).
+Software como Serviço - SaaS (Software as a Service).
 
 Metodologia Cliente Servidor com uma estrutura de aplicação distribuída.
 
