@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px){
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+        width: 83%;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+        margin: 0px 0px 0px 64px;
+    }
+}

@@ -1,0 +1,26 @@
+.book-icon {
+  font-size: 100px;
+  color: orange;
+}
+
+@media screen and (min-width: 375px) and (max-width: 499px){
+  .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0% 0% 0% 13%;
+  }
+}
+
+@media screen and (min-width: 500px){
+  .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0% 0% 0% 20%;
+  }
+}

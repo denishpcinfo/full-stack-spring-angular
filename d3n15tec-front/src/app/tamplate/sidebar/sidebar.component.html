@@ -1,0 +1,60 @@
+<html>
+  <head>
+ 
+  </head>
+  <body>
+    <div class="area">
+    </div><nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="/home">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                            Home
+                        </span>
+                    </a>
+                  
+                </li>
+                <li>
+                    <a href="/store">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                        <span class="nav-text">
+                            Shop
+                        </span>
+                    </a>
+                  
+                </li>
+                <li *ngIf="isAdmin()">
+                    <a [routerLink]="['/admin']">
+                        <i class="fa fa-cog fa-2x"></i>
+                        <span class="nav-text">
+                            Admin
+                        </span>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="/profile">
+                        
+                        <i class="fa fa-user fa-2x"></i>
+                        <span class="nav-text">
+                            Meu perfil
+                        </span>
+                    </a>
+                    
+                </li>
+            </ul>
+
+            <ul class="logout">
+                <li>
+                   <a (click)="sair()" href="#">
+                         <i class="fa fa-power-off fa-4x"></i>
+                        <span class="nav-text">
+                            Sair
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+  </body>
+    </html>
