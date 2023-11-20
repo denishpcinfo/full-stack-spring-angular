@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 public class JwtProvider implements IJwtProvider
 {
 
-    private String JWT_SECRET = "Y1VJREFETyBOQURBIMOJIElNUE9TU8ONVkVMIMOHw4cgZEVVUyDDiSBPIFNBTFZBRE9SIE8gTUVMSE9FIERPIE1FTEhPUg==";
+    private String JWT_SECRET = "xxxxxx";
 
     private Long JWT_EXPIRATION_IN_MS = 172800000L;
 
