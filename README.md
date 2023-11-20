@@ -1,4 +1,4 @@
-# Full Stack Spring Angular && Docker.
+# Full Stack Spring Angular && Docker
 
 Software como Serviço - SaaS (Software as a Service).
 
